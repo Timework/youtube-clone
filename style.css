@@ -24,14 +24,6 @@ nav {
 .video {
     height: 600px;
 }
-.description {
-    height: 400px;
-    background-color: purple;
-}
-.comments {
-    height: 600px;
-    background-color: silver;
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -156,4 +148,67 @@ input:checked + .slider:before {
 }
 .hold-right {
     margin: 0 260px 0 15px;
+}
+.description-box {
+    margin: 0 0 0 50px;
+}
+.video-title {
+    margin: 15px 0 0 0;
+    font-size: larger;
+}
+.video-info {
+    margin: 25px 0 0 0;
+}
+.video-status {
+    float: right;
+}
+.description-image {
+    border-radius: 50%;
+}
+.video-description {
+    margin: 40px 0 0 0;
+    display: flex;
+}
+.des-title {
+    margin: 0 0 0 10px;
+}
+.sub {
+    color: white;
+    background-color: red;
+    height: 40px;
+    width: 120px;
+    margin: 10px 0 0 600px;
+}
+.about {
+    margin: 30px 0 0 60px;
+}
+.forward {
+    margin: 0 0 0 60px;
+}
+.about-div {
+    margin: 20px 0 0 0;
+    display: flex;
+}
+.comment-flex {
+    margin: 20px 0 0 0;
+    display: flex;
+}
+.comment-font {
+    font-size: 18px;
+}
+.comment-space {
+    margin: 2px 0 0 30px;
+}
+.single-comment {
+    display: flex;
+    margin: 30px 0 0 0;
+}
+.c-comment {
+    margin: 0 0 0 10px;
+}
+.like-bar {
+    margin: 10px 0 0 50px;
+}
+.comments {
+    margin: 0 0 50px 0;
 }
